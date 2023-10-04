@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*We can divide CSS selectors into five categories:
+
+        1.Simple selectors (select elements based on name, id, class)
+        2.Combinator selectors (select elements based on a specific relationship between them)
+        3.Pseudo-class selectors (select elements based on a certain state)
+        4.Pseudo-elements selectors (select and style a part of an element)
+        5.Attribute selectors (select elements based on an attribute or attribute value)*/
+        /*#####################1.simple-selectors###################*/
+        /* selcector based on class*/
+      /*  .center{
+            background-color: black;
+            color:magenta;
+            font-size: larger;
+            font-weight: 900;
+            text-align: center;
+        }*/
+        /*-----selctor based onName-----*/
+       /* p{
+            text-align:center;
+            color:blueviolet;
+        }*/
+        /*-----selctor based on ID-----*/
+        /*#abc{
+            font-size: larger;
+            font-style: italic;
+            color:brown;
+        }*/
+    
+       /* #############This is class has two is (class="large center") here the funtionality is based on what order we give
+        the style sheet ->whatever element we assign two classes that particular two classes we give style in the style
+        sheet in that case it accquires all the properties of two classes except common properties(this common properties
+        will accquired of second class(In style sheet order))*/
+       /* h1{
+            text-align: center;
+        }
+       .center{
+        color:red;
+        text-align: center;
+       }
+       .large{
+        font-style: italic;
+        font-size: larger;
+        color:blueviolet;
+       }*/
+
+       /*#####################Grouping selectors##################*/
+
+       /*h1, h2, p {
+  text-align: center;
+  color: red;
+}*/
+       
+    </style>
+</head>
+<body> 
+    <!--simple Selector Example-->
+<!--
+<div>
+<h1 class="center">CSS SELECTORS PRACTICE</h1>  
+<p>Every paragragh will be affected by the style</p>
+<p id="abc">Mee Too!</p>
+<P>And me!</P>
+</div>
+-->
+<!----------------------------------------------------------------------------------------------->
+<!--**********************ONE ELEMENTS TWO CLASSES************************************** -->
+<!--
+<div>
+    <h1>This heading will not be affected</h1>
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="large center">This paragraph will be red, center-aligned, and in a large font-size.</p>   
+</div>
+-->
+<!--****************************************************************************************-->
+<!--**********************grouping selectors************************************-->
+<!--
+<div>
+<h1>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<p>This is a paragraph.</p>
+</div>
+-->
+<!--****************************************************************************************-->
+</body>
+</html>

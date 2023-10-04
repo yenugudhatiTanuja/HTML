@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: seagreen;
+}
+.Main{
+    width:350px;
+    height: 375px;
+    border:1px solid white;
+    background-color: white;
+}
+.Main h1,span{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.Main .input-box1{
+    padding-bottom: 20px;
+    
+}
+.input-box1 input{
+    width:90%;
+    height:40px;
+    padding-left: 10px;
+}
+.Main .btn1{
+    width:90%;
+    height:30px;
+    margin-bottom: 20px;
+    background-color: seagreen;
+    border:none;
+
+}
+.Main .login p a:link{
+    color:seagreen;
+    text-decoration: none;
+    
+}
+/*
+.Main .login p a:visited{
+    color:palevioletred;
+}
+.Main .login p a:hover{
+    color:red;
+}
+*/

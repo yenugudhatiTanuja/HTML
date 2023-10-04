@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div class="container">
+     <form>
+        <h1>Simple Job Application Form</h1>
+        <div class="input-box">
+        <label>FuLL Name</label>
+        <input type="text" placeholder="Enter your name and surname" required>
+        </div>
+        <div class="input-box">
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter valid email" required>
+        </div>
+        <div class="Gender">
+            <label>Gender</label>
+            <input type="radio" value="male" name="Gender">Male
+            <input type ="radio" value="female" name="Gender">Female
+        </div>
+        <div class="Address">
+            <label>Choose Country</label>
+            <select name="country" >
+                <option values="India">India</option>
+                <option values="America">America</option>
+                <option values="Austrila">Austrila</option>
+            </select>
+            <label>Choose state</label>
+            <select name="state" >
+                <optgroup label="India">
+                <option values="Telangana">Telangana</option>
+                <option values="AndhaPradesh">AndhaPradesh</option>
+                <option values="Maharastra">Maharastra</option>
+               </optgroup>
+               <optgroup label="America">
+                <option values="New york">Newyork</option>
+                <option values="New Jerssie">NwJerssie</option>
+                <option values="xyz">xyz</option>
+               </optgroup>
+             <optgroup label="Austrila">
+             <option values="New york11">Newyork</option>
+             <option values="New Jerssie2">NwJerssie</option>
+             <option values="xy1z">xyz</option>
+            </optgroup>
+            </select>
+        </div>
+        <div class="Full Address">
+            <label>Full Address: </label>
+            <input type="Text" placeholder="Mention Full Address">
+        </div>
+        <div>
+            <label>Identification Proofs: </label>
+            <input type="checkbox" value="Aadhaar">Aadhaar card
+            <input type="checkbox" value="pan">Pan card
+            <input type="checkbox" value="passport">Passport
+        </div>
+        
+     </form>
+    </div>
+</body>
+</html>
